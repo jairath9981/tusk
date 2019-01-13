@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 int i,j,t,am,co,wr;
+char s;
 cout<<"Number of test case = ";
 cin>>t;
 char str[100][100];
@@ -28,5 +29,16 @@ wr=atoi(ptr);
 cout<<"wr = "<<wr<<endl;
 cout<<"\n";
 }
+cout<<"are you humgry ??? y/n";
+cin>>s;
+if(s == 'y')
+{
+	cout<<"Eat your food first"<<endl;
 }
+else
+{
+	cout<<"do your work then"<<endl;
+}
+}
+
 
